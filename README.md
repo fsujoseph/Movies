@@ -6,7 +6,7 @@ This assingment implements an algorithm for assigning seats within a movie theat
 
 There were several assumptions I made for this program.
 
-* I did some research and concluded that the most desirable seats in a movie theater are the middle-back seats, and the middle seats in general. With this in mind, I assigned weights to the movie theater seats where the middle are the best, and the value decrements as you approach the left and right aisles. Extra value for any seat in the back.
+* I did some research and concluded that the most desirable seats in a movie theater are the middle-back seats, and the middle seats in general. With this in mind, I assigned weights to the movie theater seats where the middle are the best, and the value decrements as you approach the left and right aisles. Extra value for any seat in the back half.
 
 * Also assumed that every seat cost the same amount. 
 
