@@ -8,7 +8,7 @@ There were several assumptions I made for this program.
 
 * I did some research and concluded that the most desirable seats in a movie theater are the middle-back seats, and the middle seats in general. With this in mind, I assigned weights to the movie theater seats.
 
-I also assumed that every seat cost the same amount. 
+* Also assumed that every seat cost the same amount. 
 
 
 
