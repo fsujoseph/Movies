@@ -10,6 +10,10 @@ There were several assumptions I made for this program.
 
 * Also assumed that every seat cost the same amount. 
 
+* To maximize customer satisfaction, I assumed that being seated together and having the best possible seats according to my weightings were the decision making factors for this metric.
+
+* The document said there should be a three seat buffer and/or one row between groups. I interpreted this as groups can be directly seated behind/in front of other groups if they are in a different row, but if they are in the same row they must be three seats apart.
+
 
 
 ## Getting Started
