@@ -10,13 +10,13 @@ There were several assumptions I made for this program.
 
 * Also assumed that every seat cost the same amount. 
 
-* To maximize customer satisfaction, I assumed that being seated together and having the best possible seats according to my weightings were the decision making factors for this metric.
+* To maximize customer satisfaction, I assumed that being seated together and having the best possible seats according to my weightings were the decision making factors for this metric. The preference was to first try and group them together, then maximize the seating value.
 
-* The document said there should be a three seat buffer and/or one row between groups. I interpreted this as groups can be directly seated behind/in front of other groups if they are in a different row, but if they are in the same row they must be three seats apart.
+* The document said there should be a three seat buffer and/or one row between groups. I interpreted this as groups can be directly seated behind/in front of other groups if they are in a different row, but if they are in the same row they must be three seats apart. If this isn't the case the program can still be easily modified to account for needed precautions.
 
+## Program Description
 
-
-## Getting Started
+The core of this program uses a priority queue with a greedy algorithm. Since the reservations are in a queue, they will be given the best possible experience in the order the reservations were recieved. This is why a greedy algorithm is a great use for this application because each customer deserves the best available at the time of their booking. The greedy algorithm simply places them in the best position available. 
 
 ### Executing program
 
