@@ -26,13 +26,21 @@ If there isn't a slot available for the entire group to fit, the algorithm will 
 
 Finally, the reservation ID and corresponding seat assignments are stored in a dictionary and exported to a file called 'assignments.txt' to represent seating assignments.
 
+I wrote a short testing program that tests random inputs. Reservation sizes are random, and reservations are added until slightly above theater capacity to try and generate edge cases where failure can occur.
+
 ## Executing Program
 
-* How to run the program
-* Step-by-step bullets
+* Navigate to the directory file containing the script and in the terminal, run:
 ```
-code blocks for commands
+python3 movies.py
 ```
+* It will then prompt you for an input file. Be sure this file is in the same file as this python script, and include the '.txt' identifier.
+
+* To run the tests, navigate to the same directory as before and run:
+```
+python3 tests.py
+```
+* As denoted by the printed message in the console, you will find the name and location of the output file.
 ## Possible Improvements
 
 There are a couple of things I would like to re-visit given more time:
