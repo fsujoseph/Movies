@@ -26,10 +26,15 @@ If there isn't a slot available for the entire group to fit, the algorithm will 
 
 Finally, the reservation ID and corresponding seat assignments are stored in a dictionary and exported to a file called 'assignments.txt' to represent seating assignments.
 
-### Executing program
+## Executing Program
 
 * How to run the program
 * Step-by-step bullets
 ```
 code blocks for commands
 ```
+## Possible Improvements
+
+There are a couple of things I would like to re-visit given more time:
+* Is using a 2-D matrix the best way to store the movie theater? Could a linked list be better?
+* Is it possible to use momoization to improve time complexity for repeated searches for open seating?
