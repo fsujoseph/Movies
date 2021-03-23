@@ -16,13 +16,15 @@ There were several assumptions I made for this program.
 
 ## Program Description
 
-To start off, an input file is loaded in with a reservation ID and the number of seats requested, as a dictionary (hash map).
+To start off, an input file is loaded in with a reservation ID and the number of seats requested, as a dictionary (hash map). The input file is called 'reservations.txt'.
 
 A 2-D matrix is initialized at the start of the program which represents the movie theater layout. The seat value weights are assigned at this stage as well. Modularity was kept in mind as any size movie theater can be used and still have a functioning program.
 
 The core logic of this program uses a priority queue with a greedy algorithm. Since the reservations are in a queue, they will be given the best possible experience in the order the reservations were recieved. This is why a greedy algorithm is a great use for this application because each customer deserves the best available at the time of their booking. The greedy algorithm simply places them in the best position available.
 
 If there isn't a slot available for the entire group to fit, the algorithm will attempt to remove a member and try again so that as much of the group will be placed together as possible. The process will be repeated until the entire reservation has a seat, even if they all have individual seats.
+
+Finally, the reservation id and seats booked are stored in a dictionary and exported to a file called 'assignments.txt' to represent seating assignments.
 
 ### Executing program
 
