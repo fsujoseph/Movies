@@ -38,3 +38,4 @@ code blocks for commands
 There are a couple of things I would like to re-visit given more time:
 * Is using a 2-D matrix the best way to store the movie theater? Could a linked list be better?
 * Is it possible to use momoization to improve time complexity for repeated searches for open seating?
+* Conduct more testing to ensure full functionality.
