@@ -24,7 +24,7 @@ The core logic of this program uses a priority queue with a greedy algorithm. Si
 
 If there isn't a slot available for the entire group to fit, the algorithm will attempt to remove a member and try again so that as much of the group will be placed together as possible. The process will be repeated until the entire reservation has a seat, even if they all have individual seats.
 
-Finally, the reservation id and seats booked are stored in a dictionary and exported to a file called 'assignments.txt' to represent seating assignments.
+Finally, the reservation ID and corresponding seat assignments are stored in a dictionary and exported to a file called 'assignments.txt' to represent seating assignments.
 
 ### Executing program
 
