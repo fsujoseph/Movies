@@ -35,6 +35,7 @@ I wrote a short testing program that tests random inputs. Reservation sizes are 
 python3 movies.py
 ```
 * It will then prompt you for an input file. Be sure this file is in the same file as this python script, and include the '.txt' identifier.
+* The input file can be whatever you would like, or can be quickly generated with the method used in the testing file.
 
 * To run the tests, navigate to the same directory as before and run:
 ```
