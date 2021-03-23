@@ -1,6 +1,6 @@
 # Movie Theater Seating Challenge
 
-This assingment implements an algorithm for assigning seats within a movie theater to fulfill reservation requests. The movie theater is assumed to have a 10 row by 20 seat layout. The goal of this is to write a program that maximizes customer satisfaction and customer safety, during COVID-19 times. There must be a buffer of three seets and/or one row between groups.
+This assingment implements an algorithm for assigning seats within a movie theater to fulfill reservation requests. The movie theater is assumed to have a 10 row by 20 seat layout. The goal of this is to write a program that maximizes customer satisfaction and customer safety, during COVID-19 times. There must be a buffer of three seats and/or one row between groups.
 
 ## Assumptions
 
